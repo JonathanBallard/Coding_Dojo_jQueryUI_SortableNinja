@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>Sortable Ninja</title>
+
+    <script>
+       $( function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  } );
+  </script>
+</head>
+<body>
+
+
+    <div class="wrapper">
+        <ul id="sortable">
+            <li class="ui-state-default"><img src="sorting_images/sort1.png" alt=""></li>
+            <li class="ui-state-default"><img src="sorting_images/sort2.png" alt=""></span>Item 2</li>
+            <li class="ui-state-default"><img src="sorting_images/sort3.png" alt=""></span>Item 3</li>
+            <li class="ui-state-default"><img src="sorting_images/sort4.png" alt=""></span>Item 4</li>
+            <li class="ui-state-default"><img src="sorting_images/sort5.png" alt=""></span>Item 5</li>
+        </ul>
+
+
+    </div>
+
+
+</body>
+</html>
